@@ -3366,13 +3366,13 @@ nav ul a span.badge {
 .prof-container{
   margin: auto;
   width: 70%;
-  padding: 200px 0 50px 0;
+  padding: 180px 0 50px 0;
   text-align: justify;
 }
 
 .cont-container{
-    margin: 50px auto;
-    height: 400px;
+    margin: 30px auto 100px auto;
+    width: 40%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -3501,6 +3501,7 @@ nav ul a span.badge {
   margin-left: auto;
   left: auto;
   right: auto;
+    padding-left: 50px;
 }
 
 .row .col.s11 {
@@ -4372,6 +4373,18 @@ h6 {
     font-weight: 300;
 }
 
+.cont-container h4{
+    font-weight: 300;
+}
+
+.cont-container h5{
+    font-weight: 300;
+}
+
+.cont-container p{
+    font-weight: 300;
+}
+
 em {
   font-style: italic;
 }
@@ -4578,7 +4591,8 @@ small {
 .profile-image{
     height: 100px;
     width: auto;
-    margin: 0 10px;
+    margin: 0;
+    padding-right: 10px;
 }
 
 .card .card-title.activator {
