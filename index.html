@@ -1,44 +1,62 @@
 <html>
     <head>
         <title>Admission Abroad</title>
-        <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet">
+        <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet">
         <script src="jquery-3.1.1.min.js"></script>
         <script src="materialize/js/materialize.min.js"></script>
         <script src="dom.js"></script>
     </head>
+    
     <body>
-        <nav class="nav-extended" class="navbar-fixed">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Admission Abroad</a>
-            </div>
-            <div class="nav-content">
-                <ul class="tabs tabs-transparent">
-                    <li class="tab active"><a class="active=" href="#home">HOME</a></li>
-                    <li class="tab"><a href="#test3">ABOUT</a></li>
-                    <li class="tab"><a href="#test2">SERVICES</a></li>
-                    <li class="tab"><a href="#test4">PROFILE</a></li>
-                    <li class="tab"><a href="#test2">CONTACT US</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div id="home" class="slider">
+
+        
+        <div id="home" class="navbar-fixed hide-on-med-and-down">
+            <nav>
+                <div class="nav-wrapper">
+                    <img class="logo-img" src="img/logo.png">
+                    <ul class="right nav-tabs">
+                        <li class="nav-tab"><a href="#home">HOME</a></li>
+                        <li class="nav-tab"><a href="#about">ABOUT</a></li>
+                        <li class="nav-tab"><a href="#services">SERVICES</a></li>
+                        <li class="nav-tab"><a href="#profile">PROFILE</a></li>
+                        <li class="nav-tab"><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        
+        <!--div class="show-on-medium-and-down hide-on-large-only">
+            <a href="#" data-activates="slide-out" class="btn button-collapse"><ul id="slide-out" class="side-nav">
+                <li><div class="userView"></div></li>  
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+            Side nav demo</a>
+        </div-->
+       
+    
+        <div class="slider">
             <ul class="slides">
                 <li>
-                    <img src="img/slide3.jpg"> <!-- random image -->
+                    <img src="img/slide3.jpg">
                     <div class="caption right-align">
                         <h3>Admission abroad</h3>
                         <h5 class="light grey-text text-lighten-3">Time to turn the page</h5>
                     </div>
                 </li>
                 <li>
-                    <img src="img/slide2.jpg"> <!-- random image -->
+                    <img src="img/slide2.jpg">
                     <div class="caption left-align">
                         <h3>See the world</h3>
                         <h5 class="light grey-text text-lighten-3">Gain a new perspective</h5>
                     </div>
                 </li>
                 <li>
-                    <img src="img/slide1.jpg"> <!-- random image -->
+                    <img src="img/slide1.jpg">
                     <div class="caption center-align">
                         <h3>Education</h3>
                         <h5 class="light grey-text text-lighten-3">The voyage of a lifetime</h5>
@@ -46,63 +64,254 @@
                 </li>
             </ul>
         </div>
-        <div class="parallax-container">
-            <div class="parallax"><img src="img/parallax1.jpg"></div>
-        </div>
-        <div class="section white">
-            <div class="row container">
-                <h2 class="header">About</h2>
+            
+        
+        <div id="about">
+            <div class="about-container">
+                <h3>ABOUT</h3>
                 <h5>Admission Abroad is a student-focused consultant in International Education!</h5>
-                <p class="grey-text text-darken-3 lighten-3">Admission Abroad aspires to help each student attain the best education that this world has to offer. In today’s world of commercialization, we strive to give you the opportunity and by enabling you to receive your education from some of the finest universities in the world.</p>
-                <p class="grey-text text-darken-3 lighten-3">Through our counseling services we mentor and guide the students towards choosing the right international degree in a country which is suitable to their profile. With an accomplished founder who has had over a decade and a half vast experience in guiding students attain education overseas. We are education consultants who specialize in providing professionally tailored education advice and consultancy for the aspiring students. Admission Abroad administers world class counseling in order to enable you to pick the right career path, the best university for your career and equip you with education to take on the world we specialize in guiding students towards attaining a global degree offering a wide range of undergraduate programs and postgraduate programs..</p>
-                <p class="grey-text text-darken-3 lighten-3">We are a team of Educational Consultants with specialized skills in the areas of counseling candidates for Higher Education, Career plans, Interview preparation, and Visa assistance. As a part of our services, we could advise on your future educational plans. Every year new set of students start their careers with us. This is a journey that is both challenging and rewarding. I feel that studying abroad is a very important decision and one wrong advice may lead students to end up on a wrong course at a wrong university. We strongly encourage you to visit our office, inspect our facilities for your guidance, talk with consultants, meet the members and discover for yourself why so many aspirants have made Admission Abroad as their first choice.</p>
-                <p class="grey-text text-darken-3 lighten-3">We work only with the higher standard education institutions with highest standard and quality. And we ensure that our students are satisfied about their establishments, quality of teaching and recognition of degrees. It takes companies a whole life time to cover such a long and significant achievement but Admission Abroad feels the journey has just begun!</p>
-                <p class="grey-text text-darken-3 lighten-3">We are known among our students for the highest student satisfaction, professionalism and student friendliness. This has created a very good reputation of our company among the students and parents.</p>
+
+                <p>Admission Abroad aspires to help each student attain the best education that this world has to offer. In today’s world of commercialization, we strive to give you the opportunity and by enabling you to receive your education from some of the finest universities in the world.</p>
+                
+                <p>Through our counseling services we mentor and guide the students towards choosing the right international degree in a country which is suitable to their profile. With an accomplished founder who has had over a decade and a half vast experience in guiding students attain education overseas. We are education consultants who specialize in providing professionally tailored education advice and consultancy for the aspiring students. Admission Abroad administers world class counseling in order to enable you to pick the right career path, the best university for your career and equip you with education to take on the world we specialize in guiding students towards attaining a global degree offering a wide range of undergraduate programs and postgraduate programs.</p>
+                
+                <p>We are a team of Educational Consultants with specialized skills in the areas of counseling candidates for Higher Education, Career plans, Interview preparation, and Visa assistance. As a part of our services, we could advise on your future educational plans. Every year new set of students start their careers with us. This is a journey that is both challenging and rewarding. I feel that studying abroad is a very important decision and one wrong advice may lead students to end up on a wrong course at a wrong university. We strongly encourage you to visit our office, inspect our facilities for your guidance, talk with consultants, meet the members and discover for yourself why so many aspirants have made Admission Abroad as their first choice.</p>
+                
+                <p>We work only with the higher standard education institutions with highest standard and quality. And we ensure that our students are satisfied about their establishments, quality of teaching and recognition of degrees. It takes companies a whole life time to cover such a long and significant achievement but Admission Abroad feels the journey has just begun!</p>
+                
+                <p>We are known among our students for the highest student satisfaction, professionalism and student friendliness. This has created a very good reputation of our company among the students and parents.</p>
             </div>
         </div>
+        
+        
         <div class="parallax-container">
             <div class="parallax"><img src="img/parallax1.jpg"></div>
         </div>
+        
+        
         <div id="services">
-            <h5 class="center">SERVICES</h5>
-            <div class="row">
-                <div class="col s3 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+            <div class="serv-container">
+                <h3>SERVICES</h3>
+                <div class="row">
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Selection of universities/course and applying based on their academic ability and financial capability</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">All supporting documents for the application</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Providing information on required Tests like GMAT,GRE,IELTS,Toefl etc</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Follow up with admissions office and securing admission</p>
+                                </div>
+            
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s3 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                <div class="row">
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Help to make the payment of deposits, fees</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Help you to book accommodation</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Professional help in preparing visa documentation and applying visa</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Providing information to face the visa interview</p>
+                                </div>
+            
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s3 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                <div class="row">
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Pre-departure briefing</p>
+                                </div>
+            
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s3 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Providing support for getting Tickets, Travel insurance and Forex with student discounts</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Arranging the 'Meet and greet' service on your arrival at the airport</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m3 l3">                        
+                        <div class="card horizontal blue-grey darken-1">
+                            <div class="card-image valign-wrapper">
+                                <img src="img/profile.jpg" class=" valign services-image">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content white-text valign-wrapper">
+                                    <p class="valign">Selection of universities/course and applying based on their academic ability and financial capability</p>
+                                </div>
+            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax2.jpg"></div>
+        </div>
+        
+        
+        <div id="profile">
+            <div class="prof-container">
+                <h3>PROFILE</h3>
+                <p>A self-motivated senior management professional with substantial and varied experience of several industry sectors including education [student recruitment, counselling and placement].</p>
+
+                <p>A 15 eventful years of long and rewarding association with the Industry pioneers Campus Abroad having  three decades plus experience in the industry representing more than 100 universities of high repute all over the World.</p>
+
+                <p>He strongly believes that studying abroad should liberate students to explore, to create, to challenge, to lead in the society.</p>
+
+                <p>International education and exposure provide to students is a foundation upon which self-reliance and habits of lifelong learning, encouraging initiative and innovation, and unlocking their creative potential.</p>
+
+                <p>Every student must take best advantage of their educational opportunities that would pave way for their later lives to advance knowledge, to promote understanding, and to serve the country and the global society.</p>
+            </div>
+        </div>
+        
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax3.jpg"></div>
+        </div>
+        
+        
+        <div id="contact">
+            <div class="cont-container horizontal">
+                <h3>CONTACT US</h3>
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="card-panel grey lighten-3">
+                        <div class="row valign-wrapper">
+                            <div class="col s2">
+                                <img src="img/profile.jpg" class="profile-image circle">
+                            </div>
+                            <div class="col s10">
+                                <span class="black-text">
+                                    <h4>B. VIJAY KUMAR</h4>
+                                    <h5>CHIEF EXECUTIVE</h5>
+                                    <p>41/2, Castle Street, Near Lifestyle, Off Richmond Road, Bangalore-560025</p>
+                                    <p>080-41146111 | 9035839600</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax4.jpg"></div>
+        </div>
+        
+        
     </body>
 </html>
