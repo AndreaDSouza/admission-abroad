@@ -1,3 +1,11 @@
+/*
+#312c32 dark grey
+#daad86 peach
+#004d4d teal?
+*/
+
+
+
 /*!
  * Materialize v0.98.0 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
@@ -2158,9 +2166,10 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0;
+    margin: 0;
     padding: 0;
     border: 0;
+    background-color: #312c32;
 }
 
 /* HTML5 display definitions
@@ -3347,32 +3356,51 @@ nav ul a span.badge {
           font-feature-settings: 'liga';
 }
 
+#about{
+    width: 100%;
+    background-color: #fff;
+    height: 780px;
+}
+
 .about-container {
   margin: auto;
   width: 70%;
-  padding: 0;
-  padding-top: 150px;
+  padding: 30px 0 0 0;
   text-align: justify;
-  font-size: 14px;
+  color: #006666;
 }
 
 .serv-container{
-  margin: auto 35px;
-  width: 95%;
-  padding: 0;
-  padding-top: 160px;
+  margin: auto;
+  width: 100%;
+  height: 75%;
+  padding: 30px 0 0 0;
+  color: white;
+}
+
+#profile{
+    width: 100%;
+    background-color: #fff;
+    height: 75%;
 }
 
 .prof-container{
   margin: auto;
   width: 70%;
-  padding: 180px 0 50px 0;
+  height: 75%;
+  padding: 30px 0 0 0;
   text-align: justify;
+  color: #006666;
 }
 
 .cont-container{
-    margin: 30px auto 100px auto;
-    width: 40%;
+    margin: auto;
+    width: auto;
+    height: 75%;
+    padding: 0;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white;
 }
 
 @media only screen and (min-width: 601px) {
@@ -3409,7 +3437,7 @@ nav ul a span.badge {
   padding-top: 0;
 }
 
-.row {
+.row{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2px;
@@ -4030,7 +4058,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #fff;
+  background-color: #312c32;
   width: 100%;
   height: 150px;
   line-height: 56px;
@@ -4101,6 +4129,17 @@ nav .button-collapse i {
     height: 150px;
     width: auto;
     padding-left: 50px;
+    z-index: 1000;
+    position: fixed;
+}
+
+.logo-back{
+    background-color: white;
+    width: 79px;
+    height: 30px;
+    top: 87px;
+    left: 55px;
+    position: fixed;
 }
 
 nav .brand-logo {
@@ -4172,7 +4211,7 @@ nav ul li.active {
 
 nav ul a {
   transition: background-color .3s;
-  font-size: 15px;
+  font-size: 17px;
   color: teal;
   display: block;
   padding: 0 15px;
@@ -4367,10 +4406,15 @@ h6 {
 }
 
 p{
-    font-size: 140%;
+    font-size: 110%;
 }
 
 .about-container p{
+    font-weight: 300;
+}
+
+.about-container h5{
+    padding: 20px 0 0 0;
     font-weight: 300;
 }
 
@@ -4380,6 +4424,7 @@ p{
 
 .serv-container p{
     font-size: 100%;
+    font-weight: 300;
 }
 
 .cont-container p{
@@ -4563,19 +4608,19 @@ small {
 
 .card-panel {
   transition: box-shadow .25s;
-  padding: 24px;
+  padding: 0;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff;
+  background-color: #5DBCD2;
 }
 
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #312c32;
   transition: box-shadow .25s;
   border-radius: 2px;
-  height: 130px;
+  height: 110px;
 }
 
 .card .card-title {
@@ -4594,6 +4639,10 @@ small {
     width: auto;
     margin: 0;
     padding-right: 10px;
+}
+
+.cont-img{
+    height: 400px;
 }
 
 .card .card-title.activator {
@@ -4704,6 +4753,7 @@ small {
   top: 0;
   bottom: 0;
   width: 100%;
+    height: 30px;
 }
 
 .card .card-image .card-title {
@@ -7739,9 +7789,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .slider {
   position: relative;
-  height: 488px !important;
+  height: 68% !important;
   width: 100%;
-    padding-top: 10px;
 }
 
 .slider.fullscreen {
