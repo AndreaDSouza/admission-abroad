@@ -3,16 +3,12 @@ $(document).ready(function(){
     $('.parallax').parallax();
 
     $('.button-collapse').sideNav({
-        menuWidth: 200
+        menuWidth: 250,
     });
     
-    $(".jumper").on("click", function( e ) {
-    
-    e.preventDefault();
-
-    $("body, html").animate({ 
-        scrollTop: $( $(this).attr('href') ).offset().top-160
-    }, 600);
-    
-});
+    $(".jumper").on("click", function( e ){
+        e.preventDefault();
+        $("body, html").animate({ 
+        scrollTop: $( $(this).attr('href') ).offset().top-160}, 600);
+    });
 });

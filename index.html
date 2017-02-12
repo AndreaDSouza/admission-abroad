@@ -2,6 +2,7 @@
     <head>
         <title>Admission Abroad</title>
         <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="jquery-3.1.1.min.js"></script>
         <script src="materialize/js/materialize.min.js"></script>
         <script src="dom.js"></script>
@@ -9,7 +10,7 @@
     
     <body>
         
-        <div id="home" class="navbar-fixed hide-on-med-and-down">
+        <div class="navbar-fixed hide-on-med-and-down">
             <nav>
                 <div class="nav-wrapper">
                     <div class="logo-back"></div>
@@ -26,7 +27,7 @@
         </div>
         
         
-        <div class="show-on-medium-and-down hide-on-large-only">
+        <div class="show-on-medium-and-down hide-on-large-only mob-fixed">
             <ul id="slide-out" class="side-nav">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -34,11 +35,11 @@
                 <li><a href="#profile">PROFILE</a></li>
                 <li><a href="#contact">CONTACT US</a></li>
             </ul>
-            <a href="#" data-activates="slide-out" class="button-collapse">!MENU!</a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="large material-icons">reorder</i></a>
         </div>
           
         
-        <div class="slider">
+        <div id="home" class="slider">
             <ul class="slides">
                 <li>
                     <img src="img/slide3.jpg">
