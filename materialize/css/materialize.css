@@ -3360,12 +3360,13 @@ nav ul a span.badge {
     width: 100%;
     background-color: #fff;
     height: 780px;
+    padding-bottom: 20px;
 }
 
 .about-container {
   margin: auto;
   width: 70%;
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
   text-align: justify;
   color: #006666;
 }
@@ -3373,22 +3374,21 @@ nav ul a span.badge {
 .serv-container{
   margin: auto;
   width: 100%;
-  height: 75%;
-  padding: 30px 0 0 0;
+  height: 50px;
+  padding: 20px 0 0 0;
   color: white;
 }
 
 #profile{
     width: 100%;
     background-color: #fff;
-    height: 75%;
+    height: 480px;
 }
 
 .prof-container{
   margin: auto;
   width: 70%;
-  height: 75%;
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
   text-align: justify;
   color: #006666;
 }
@@ -3396,9 +3396,8 @@ nav ul a span.badge {
 .cont-container{
     margin: auto;
     width: auto;
-    height: 75%;
-    padding: 0;
-    padding-bottom: 60px;
+    height: 480px;
+    padding: 20px 0 60px 0;
     text-align: center;
     color: white;
 }
@@ -4212,7 +4211,7 @@ nav ul li.active {
 nav ul a {
   transition: background-color .3s;
   font-size: 17px;
-  color: teal;
+  color: #ff9c5f;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -4642,7 +4641,7 @@ small {
 }
 
 .cont-img{
-    height: 400px;
+    height: 350px;
 }
 
 .card .card-title.activator {
@@ -7789,7 +7788,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .slider {
   position: relative;
-  height: 68% !important;
+  height: 488px !important;
   width: 100%;
 }
 
